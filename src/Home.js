@@ -1,6 +1,8 @@
 import React from 'react';
 import Product from "./Product";
 import "./Home.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 function Home() {
     return (
@@ -8,6 +10,7 @@ function Home() {
             <img className="home__image" src="https://www.pixelstalk.net/wp-content/uploads/images1/Medical-Wallpapers-HD-Free-download.jpg"
                 alt="" 
             />
+            
             {/* Product id,title,price,rating,image */}
             <h2>Devices</h2>
             <div className="home__row">
@@ -64,7 +67,7 @@ function Home() {
             <div className="home__row">
                 <Product 
                 id="7"
-                title="Liveasy Wellness Immuno Protein - Adult Protein Drink With Vitamins & Minerals -Jar Of 500 Gram"
+                title="Liveasy Wellness Immuno Protein - Adult Protein Drink With Vitamins & Minerals"
                 price={659.45}
                 rating={5}
                 image="https://cdn01.pharmeasy.in/dam/products_otc/F54285/liveasy-wellness-immuno-protein-adult-protein-drink-with-vitamins-minerals-provides-energy-vitality-jar-of-500-gram-2-1598018537.jpg" 

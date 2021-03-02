@@ -17,6 +17,7 @@
 .product:hover {
   transform: scale(1.08);
   box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
 }
 
 .product__info {
@@ -39,4 +40,5 @@
   background-color: #f0c14b;
   border: 1px solid;
   border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer;
 }

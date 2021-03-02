@@ -12,8 +12,14 @@
 }
 
 .checkout__left {
+  flex: 0.7;
   padding-right: 50px;
 }
+
+.checkout__right {
+  flex: 0.3;
+}
+
 .checkout__ad {
   width: 100%;
   margin-bottom: 10px;
