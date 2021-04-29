@@ -22,7 +22,7 @@ function Header() {
                 <Link to="/">
                     <img className="header__logo"
                         //src={process.env.PUBLIC_URL + '/Medination.png'}
-                        src="https://ci4.googleusercontent.com/proxy/Yd2KsTl_n2bRuwKvPMV2FCbhrwVqGYVlPB1Bzf3ARMEBQOoKojVfqTMGpKkCEDI6_ZwQDGM2KwwYdCWFu08jQ_1RnwR88bLIW7prvHD745tKpAYiVO5dKrKR_O1xW08CRxcat2aeWTXomfffZkH31YQUgSnXK-vs=s0-d-e1-ft#https://www.freelogodesign.org/file/app/client/thumb/2186a4a6-b3e1-46b6-8e68-f4175dc6adaf_200x200.png"
+                        src="https://api.freelogodesign.org/files/fd2f5af3b93c4e41981d98dc8db6c1bb/thumb/logo_200x200.png?v=637551858220000000"
                         alt="" />
                 </Link>
             </div>
